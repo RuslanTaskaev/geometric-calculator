@@ -300,7 +300,7 @@ int main() {
 					}
 					break;
 
-				} while (choice > 1 || choice < 4);
+				} while (choice > '1' || choice < '4');
 				break;
 
 			case '3':
@@ -339,7 +339,7 @@ int main() {
 						cout << "Введена некорректная операция." << endl;
 						break;
 					}
-				} while (choice  < 1 || choice > 5);
+				} while (choice  < '1' || choice > '5');
 
 				break;
 			case '4':
@@ -371,7 +371,7 @@ int main() {
 						break;
 					}
 
-				} while (choice > 1 || choice < 3);
+				} while (choice > '1' || choice < '3');
 				break;
 			case '5':
 				Rhombus rhombus;
@@ -405,7 +405,7 @@ int main() {
 						cout << "Введена некорректная операция." << endl;
 						break;
 					}
-				} while (choice > 1 || choice < 4);
+				} while (choice > '1' || choice < '4');
 				break;
 			case '6':
 				Trapezoid trapezoid;
